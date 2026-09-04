@@ -32,3 +32,7 @@ def get_hello():
         return {"message":doc["message"]}
     
     return{"message":"hello from fastapi"}
+
+@app.get("/check")
+def get_check():
+    return {"message": "fastapi is owrking"}
