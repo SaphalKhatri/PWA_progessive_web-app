@@ -36,3 +36,7 @@ def get_hello():
 @app.get("/check")
 def get_check():
     return {"message": "fastapi is owrking"}
+
+@app.get("new branch")
+def new_check():
+    return{"message":"bracneh"}
